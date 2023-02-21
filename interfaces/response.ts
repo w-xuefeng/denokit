@@ -1,4 +1,4 @@
-export interface IUniReponse<T> extends Record<string, any> {
+export interface IUniReponse<T> extends Record<string, unknown> {
   success: boolean;
   code: number;
   message: string;

@@ -1,3 +1,5 @@
+// deno-lint-ignore-file no-explicit-any
+
 export type Nullable<T> = null | T;
 export type UndefinedAble<T> = undefined | T;
 export interface RefType<T> {
