@@ -1,0 +1,6 @@
+export enum EHttpRsCode {
+  OK = 200,
+  SYSTEM_INTERNAL_EXCEPTION = -1,
+  GATEWAY_EXCEPTION = 1,
+  MISSING_PARAMETER = 4001,
+}
