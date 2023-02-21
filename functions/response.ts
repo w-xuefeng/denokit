@@ -1,5 +1,5 @@
-import { EHttpRsCode } from "../configs/index.ts";
-import { IPagination, IUniReponse } from "../interfaces/index.ts";
+import { EHttpRsCode } from "../configs/const.ts";
+import { IPagination, IUniReponse } from "../interfaces/response.ts";
 
 export default class R {
   static json<T>(option: IUniReponse<T>) {
